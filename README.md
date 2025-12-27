@@ -38,7 +38,7 @@ All scraping is done using a real browser session via Playwright.
 ---------------------------------------------------------------------------------------------------------------
 
 ## Project structure
-
+```
 goodreads-book-info-scraper/
 ├── src/
 │ ├── browser.py # Browser lifecycle and page loading
@@ -52,7 +52,7 @@ goodreads-book-info-scraper/
 ├── main.py # Entry point and user interaction flow
 ├── .gitignore
 ├── README.md
-
+```
 ---------------------------------------------------------------------------------------------------------------
 
 ## File explanations
