@@ -22,7 +22,7 @@ def extract_book_choice_desc(page) -> dict:
     genres = extract_genres(page)
     print("Genres:", ", ".join(genres))
 
-    # ✅ Return structured data
+    # Return structured data
     return {
         "Title": bookTitle,
         "Contributor": contributor,
@@ -30,3 +30,4 @@ def extract_book_choice_desc(page) -> dict:
         "RatingsTotal": ratingTotal,
         "Genres": ", ".join(genres)   # flatten list into a single string
     }
+
